@@ -1,17 +1,13 @@
 package visual_interface;
 
-import java.awt.*;
-import java.net.BindException;
-
 import javax.swing.JOptionPane;
-import common.Message;
 import logic.Logic;
 import processing.core.*;
 import server.ServerCom;
 
 public class MainInterface extends PApplet {
 
-	private Logic logic;
+	public Logic logic;
 
 	public Statistics stats;
 

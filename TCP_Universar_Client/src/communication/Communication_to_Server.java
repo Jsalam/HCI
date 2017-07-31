@@ -14,11 +14,11 @@ public class Communication_to_Server implements Runnable {
 	private ObjectInputStream ois;
 	private ObjectOutputStream oos;
 
-	private Logic logic;
+	public Logic logic;
 	private User user;
 
 	private String localIp = "127.0.0.1";
-	private String ip = "BUSCAR";// TODO
+	//private String ip = "BUSCAR";// TODO
 
 	private int port = 5000;
 

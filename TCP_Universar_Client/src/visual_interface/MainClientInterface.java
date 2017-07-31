@@ -1,10 +1,6 @@
 package visual_interface;
 
-import java.awt.*;
-import javax.swing.JOptionPane;
-import common.Message;
 import logic.Logic;
-import logic.User;
 import processing.core.*;
 
 public class MainClientInterface extends PApplet {

@@ -28,7 +28,7 @@ public class ServerCom extends Thread {
 			"CarlosC", "Andres" };
 	private String path = "/Users/juansalamanca/Google Drive/Courses/Pregrado/HCI 2/HCI2 2017 - 2 (Fall)/Project 1/results.txt";
 
-	private FileWriter fileWriter;
+	public FileWriter fileWriter;
 	private static BufferedWriter writer = null;
 	private File file;
 	int time;

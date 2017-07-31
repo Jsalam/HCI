@@ -11,7 +11,7 @@ public class Client_communication_thread extends Thread {
 	// private Group myGroup;
 	private boolean online;
 
-	private ServerCom server;
+	public ServerCom server;
 	private Socket socket;
 
 	private ObjectInputStream ois;
@@ -84,7 +84,7 @@ public class Client_communication_thread extends Thread {
 	public void manageMessages(Message msm) {
 
 		String type = msm.getType();
-		int userId = msm.getUserId();
+		//int userId = msm.getUserId();
 
 		switch (type) {
 		case "goats":

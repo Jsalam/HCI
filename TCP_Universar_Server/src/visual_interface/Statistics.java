@@ -1,6 +1,5 @@
 package visual_interface;
 
-import java.awt.Color;
 
 import processing.core.*;
 import server.Client_communication_thread;
