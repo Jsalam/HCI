@@ -7,6 +7,7 @@ public class Potrero {
 	int energia;
 	PApplet app;
 	ArrayList<Cabra> cabras;
+	int consumoEnergiaCabra = 10;
 
 	public Potrero(PApplet app) {
 		energia = 10000;
@@ -24,9 +25,17 @@ public class Potrero {
 		}
 	}
 
+	/**
+	 * Este metodo recibe la cantidad de segundos que ha transcurrido desde que
+	 * inició el juego (no desde que inicio la aplicacion). Cada 10 segundos la
+	 * energía del potrero disminuye en x uniddaes por cada cabra que haya en
+	 * el potrero. Las unidades estan definidas en la variable consumoEnergíaCabra
+	 * 
+	 * @param time
+	 */
 	public void actualizarEnergia(int time) {
 		if (time % 10 == 0) {
-			energia -= cabras.size() * 10;
+			energia -= cabras.size() * consumoEnergiaCabra;
 			if (energia < 0) {
 				energia = 0;
 			}

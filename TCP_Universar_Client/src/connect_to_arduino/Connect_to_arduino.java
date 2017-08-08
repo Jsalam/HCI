@@ -15,16 +15,16 @@ public class Connect_to_arduino {
 
 		potrero.addEnergia( float lecturaFotocelda) // una vez por segundo
 		  
-		cabra.setEnergía (potrero.getEnergia())
-		Cada segundo este método debe tomar 10 unidades de energía del potrero
-		 y agregarlas a la variable energíaAcumulada de la cabra. Las cabras pueden tener un
-		  valor máximo de energía acumulada de 100 unidades. Cuando se crea una cabra, nace con 
-		  el valor de energía máximo
+		cabra.setEnergia (potrero.getEnergia())
+		Cada segundo este metodo debe tomar 10 unidades de energia del potrero
+		 y agregarlas a la variable energiaAcumulada de la cabra. Las cabras pueden tener un
+		  valor maximo de energia acumulada de 100 unidades. Cuando se crea una cabra, nace con 
+		  el valor de energia maximo
 		
 		
 		cabra.exisitir()
 		Cada segundo de existencia de una cabra ella debe gastar
-		 10 unidades de energía de su valor energiaAcumulada
+		 10 unidades de energia de su valor energiaAcumulada
 
 //*/
 	}
