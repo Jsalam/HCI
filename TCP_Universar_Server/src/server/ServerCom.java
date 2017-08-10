@@ -21,12 +21,15 @@ public class ServerCom extends Thread {
 	private ServerSocket serverSocket;
 	// public static ArrayList<Group> groups;
 	public static ArrayList<Client_communication_thread> clients;
-	public static int minClients = 8;
 	private boolean online;
 	private int usersConnected;
-	private String[] usuarios = { "Daniel&Co", "Carlos&Isa", "Edward&Co", "CamiloJ&Co", "Endo&Co", "Bryan&Co",
-			"CarlosC", "Andres" };
-	private String path = "/Users/juansalamanca/Google Drive/Courses/Pregrado/HCI 2/HCI2 2017 - 2 (Fall)/Project 1/results.txt";
+//	private String[] usuarios = { "Daniel&Co", "Carlos&Isa", "Edward&Co", "CamiloJ&Co", "Endo&Co", "Bryan&Co",
+//			"CarlosC", "Andres" };
+	private String[] usuarios = { "Daniel&Co"};
+	// This variable controls when is the "go" sign sent.
+	public static int minClients = 1;
+	//private String path = "/Users/juansalamanca/Google Drive/Courses/Pregrado/HCI 2/HCI2 2017 - 2 (Fall)/Project 1/results.txt";
+	private String path = "/Users/jsalam/Google Drive/Courses/Pregrado/HCI 2/HCI2 2017 - 2 (Fall)/Project 1/results.txt";
 
 	public FileWriter fileWriter;
 	private static BufferedWriter writer = null;
