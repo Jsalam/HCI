@@ -1,6 +1,7 @@
 
 public class Cabra {
-	int energia;
+	public int energia;
+	public int id;
 	
 	public Cabra(){
 		energia = 150;
