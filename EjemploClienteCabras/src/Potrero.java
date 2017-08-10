@@ -17,7 +17,7 @@ public class Potrero {
 	}
 
 	/**
-	 * el potrero se puebla con un 5 cabras. Se invoca UNA SOLA VEZ
+	 * el potrero se pobla con un 5 cabras. Se invoca UNA SOLA VEZ
 	 */
 	public void init() {
 		if (!inicializado) {
